@@ -32,6 +32,9 @@ const CardList = ({ robots }) => {
 }; */
 
 const CardList = ({ robots }) => {
+   if(true) {
+      throw new Error('noooooooo!');
+   }
    return (
       <div>
       {
